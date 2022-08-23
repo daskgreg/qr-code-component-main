@@ -1,0 +1,78 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body{
+    width:1440px;
+    background-color: #D5E1EF;
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    position: absolute;
+    top:5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+img{
+    padding: 2 2 2 2;
+    width:288px;
+    height: 288px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.center-img{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    margin-right: -42%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #1C2336;
+}
+.center-title{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -35%;
+    transform: translate(-50%, -50%);
+}
+.description{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-family: 20px;
+    color:hsl(220, 15%, 55%);
+}
+.center-descr{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    margin-right: -37%;
+    transform: translate(-50%, -50%);
+}
+.card{ 
+    width:320px; 
+    height:500px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:white;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
